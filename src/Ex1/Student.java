@@ -1,3 +1,5 @@
+package Ex1;
+
 import java.io.*;
 
 public class Student implements Serializable {
@@ -54,7 +56,7 @@ public class Student implements Serializable {
     }
     @Override
     public String toString() {
-        return "Student{" +
+        return "Ex1.Student{" +
                 "name='" + name + '\'' +
                 ", grade=" + grade +
                 '}';

@@ -1,3 +1,5 @@
+package Ex1;
+
 public class Main {
     public static void main(String[] args) {
         Student s1= new Student("Andreea",9);
@@ -11,7 +13,7 @@ public class Main {
 
         Student.saveStudents(studentArray);
 
-       studentArray=Student.loadStudents();
+       studentArray= Student.loadStudents();
 
         if(studentArray != null){
             System.out.println("Loaded students: ");
